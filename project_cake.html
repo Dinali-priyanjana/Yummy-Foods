@@ -11,8 +11,6 @@ var slideshows = document.querySelectorAll('[data-component="slideshow"]');
   slideshows.forEach(initSlideShow);
 
   function initSlideShow(slideshow) {
-    // it checku
-
     var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`); // Get an array of slides
 
     var index = 0, time = 5000;
